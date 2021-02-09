@@ -1,12 +1,21 @@
 {
   "name": "ts-fundamentals",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript fundamentals",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "js",
+    "ts",
+    "Node.js"
+  ],
+  "author": "Antonio Mata <hildeamp@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
 }
