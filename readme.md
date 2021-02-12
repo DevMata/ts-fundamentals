@@ -20,3 +20,7 @@ npm run primitives
 npm run classes
 npm run utility     
 ```
+
+## Some good practices
+* include your ./dist or output folder in the .gitignore file
+* install TS as a dev dependency
