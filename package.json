@@ -4,7 +4,10 @@
   "description": "Typescript fundamentals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "js": "nodemon src/primitives.js",
+    "ts": "nodemon --watch 'src/**' --ext 'ts' --exec 'ts-node src/primitives.ts'",
+    "classes": "nodemon --watch 'src/**' --ext 'ts' --exec 'ts-node src/classes.ts'",
+    "utility": "nodemon --watch 'src/**' --ext 'ts' --exec 'ts-node src/utility.ts'"
   },
   "keywords": [
     "js",
