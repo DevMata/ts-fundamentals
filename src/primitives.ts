@@ -1,4 +1,4 @@
-const myNumber = 1;
+const myNumber = 10;
 
 const myString = 'TS';
 
@@ -7,23 +7,35 @@ const myBoolean = false;
 // symbol
 const mySymbol = Symbol('Antonio');
 
-function sum(a, b) {
+let myAny: any;
+
+let myUnknown: unknown;
+function myUnknownFn(arg: unknown) {
+  if (typeof arg === 'string') {
+    arg.toLowerCase();
+  }
+  if (typeof arg === 'number') {
+    arg.toExponential();
+  }
+}
+
+function sum(a: number, b: number) {
   return a + b;
 }
 
-function multiply(a, b) {
+function multiply(a: number, b: number) {
   return a * b;
 }
 
-function getLength(str) {
+function getLength(str: string) {
   return str.length;
 }
 
-function toLower(str) {
+function toLower(str: string) {
   return str.toLowerCase();
 }
 
-function getBooleanString(bool) {
+function getBooleanString(bool: boolean) {
   if (bool) {
     return 'True';
   }
